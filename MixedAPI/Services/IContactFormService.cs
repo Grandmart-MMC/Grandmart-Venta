@@ -6,5 +6,6 @@ namespace MixedAPI.Services
     public interface IContactFormService
     {
         Task<ContactForm> SubmitFormAsync(ContactFormDto formform);
+        Task<ContactFormForCompanyDto> SubmitFormForCompanyAsync(ContactFormForCompanyDto form);
     }
 }

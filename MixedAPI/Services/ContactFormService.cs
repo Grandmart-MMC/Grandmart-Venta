@@ -14,17 +14,20 @@ namespace MixedAPI.Services
         private readonly IConfiguration _configuration;
         private readonly ILogger<ContactFormService> _logger;
         private readonly IValidator<ContactFormDto> _validator;
+        private readonly IValidator<ContactFormForCompanyDto> _companyValidator;
 
         public ContactFormService(
             ApplicationDbContext dbContext,
             IConfiguration configuration,
             ILogger<ContactFormService> logger,
-            IValidator<ContactFormDto> validator)
+            IValidator<ContactFormDto> validator,
+            IValidator<ContactFormForCompanyDto> companyValidator)
         {
             _context = dbContext;
             _configuration = configuration;
             _logger = logger;
             _validator = validator;
+            _companyValidator = companyValidator;
         }
 
         public async Task<ContactForm> SubmitFormAsync(ContactFormDto form) 
@@ -101,6 +104,58 @@ namespace MixedAPI.Services
             }
         }
 
+        public async Task<ContactFormForCompanyDto> SubmitFormForCompanyAsync(ContactFormForCompanyDto form)
+        {
+            if (form == null)
+                throw new ArgumentNullException(nameof(form), "Form məlumatı boş ola bilməz.");
+
+            ValidationResult result = await _companyValidator.ValidateAsync(form);
+            if (!result.IsValid)
+            {
+                throw new ValidationException("Formda xətalar mövcuddur:", result.Errors);
+            }
+
+            await using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                await SendAdminNotificationForCompanyAsync(form);
+                if (!string.IsNullOrWhiteSpace(form.Email))
+                {
+                    await SendUserConfirmationForCompanyAsync(form);
+                }
+
+                var entity = new ContactFormForCompany
+                {
+                    Name = form.Name,
+                    Email = form.Email,
+                    PhoneNumber = form.PhoneNumber,
+                    Message = form.Message,
+                    SendTime = DateTime.UtcNow
+                };
+
+                await _context.ContactFormForCompanies.AddAsync(entity);
+                await _context.SaveChangesAsync();
+
+                int newPanelId = (_context.ContactFormForPanels.Any())
+                    ? _context.ContactFormForPanels.Max(p => p.Id) + 1
+                    : 1;
+
+                return new ContactFormForCompanyDto
+                {
+                    Name = entity.Name,
+                    Email = entity.Email,
+                    PhoneNumber = entity.PhoneNumber,
+                    Message = entity.Message,
+                    SendTime = entity.SendTime
+                };
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                _logger.LogError(ex, "Company Contact form submit error");
+                throw;
+            }
+        }
 
         private async Task SendAdminNotificationAsync(ContactFormDto form, string courseName)
         {
@@ -247,5 +302,101 @@ namespace MixedAPI.Services
         </div>
     </div>";
         }
+
+
+        private async Task SendAdminNotificationForCompanyAsync(ContactFormForCompanyDto form)
+        {
+            try
+            {
+                var smtpHost = _configuration["Smtp:Host"];
+                var smtpPort = int.Parse(_configuration["Smtp:Port"]);
+                var smtpUser = _configuration["Smtp:UserName"];
+                var smtpPass = _configuration["Smtp:Password"];
+                var smtpSsl = bool.Parse(_configuration["Smtp:EnableSsl"]);
+
+                using var smtp = new SmtpClient(smtpHost, smtpPort)
+                {
+                    Credentials = new NetworkCredential(smtpUser, smtpPass),
+                    EnableSsl = smtpSsl
+                };
+
+                var mail = new MailMessage
+                {
+                    From = new MailAddress(smtpUser, "Venta Academy"),
+                    Subject = "Yeni şirkət müraciəti",
+                    IsBodyHtml = true,
+                    Body = GenerateAdminEmailBodyForCompany(form)
+                };
+
+                mail.To.Add("babek.agamuradli@grandmart.az");
+
+                await smtp.SendMailAsync(mail);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation(ex, "Şirkət admin bildirişi göndərilmədi");
+                throw;
+            }
+        }
+
+        private async Task SendUserConfirmationForCompanyAsync(ContactFormForCompanyDto form)
+        {
+            try
+            {
+                var smtpHost = _configuration["Smtp:Host"];
+                var smtpPort = int.Parse(_configuration["Smtp:Port"]);
+                var smtpUser = _configuration["Smtp:UserName"];
+                var smtpPass = _configuration["Smtp:Password"];
+                var smtpSsl = bool.Parse(_configuration["Smtp:EnableSsl"]);
+
+                using var smtp = new SmtpClient(smtpHost, smtpPort)
+                {
+                    Credentials = new NetworkCredential(smtpUser, smtpPass),
+                    EnableSsl = smtpSsl
+                };
+
+                var mail = new MailMessage
+                {
+                    From = new MailAddress(smtpUser, "Venta Academy"),
+                    Subject = "Müraciətiniz qəbul edildi",
+                    IsBodyHtml = true,
+                    Body = GenerateUserEmailBodyForCompany(form)
+                };
+
+                mail.To.Add(form.Email);
+
+                await smtp.SendMailAsync(mail);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Şirkət istifadəçi emaili göndərilmədi");
+                throw;
+            }
+        }
+
+        private string GenerateAdminEmailBodyForCompany(ContactFormForCompanyDto form)
+        {
+            return $@"
+<div style='font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto;'>
+    <h2>Yeni Şirkət Müraciəti</h2>
+    <p><strong>Ad:</strong> {form.Name}</p>
+    <p><strong>Email:</strong> {form.Email}</p>
+    <p><strong>Telefon:</strong> {form.PhoneNumber}</p>
+    <p><strong>Mesaj:</strong><br>{form.Message}</p>
+    <p><strong>Göndərilmə vaxtı:</strong> {DateTime.Now:dd.MM.yyyy HH:mm}</p>
+</div>";
+        }
+
+        private string GenerateUserEmailBodyForCompany(ContactFormForCompanyDto form)
+        {
+            return $@"
+<div style='font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto;'>
+    <h2>Müraciətiniz Qəbul Edildi</h2>
+    <p>Hörmətli <strong>{form.Name}</strong>, müraciətiniz uğurla qəbul edildi.</p>
+    <p>Əlavə sualınız varsa, bizimlə əlaqə saxlayın: <a href='mailto:info@ventaacademy.com'>info@ventaacademy.com</a></p>
+    <p>Venta Academy</p>
+</div>";
+        }
+
     }
 }

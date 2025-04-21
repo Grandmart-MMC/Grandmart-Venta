@@ -1,0 +1,5 @@
+wwwroot\CourseIcons\Back-end_telimi.svg
+wwwroot\CourseIcons\Front-end_telimi.svg
+wwwroot\CourseIcons\HR_telimi.svg
+wwwroot\CourseIcons\Satis_telimi.svg
+wwwroot\CourseIcons\Turizm_telimi.svg

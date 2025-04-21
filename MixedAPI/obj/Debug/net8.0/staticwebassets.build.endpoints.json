@@ -1,0 +1,416 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "CourseIcons/Back-end_telimi.oon69vps9i.svg",
+      "AssetFile": "CourseIcons/Back-end_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oon69vps9i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ="
+        },
+        {
+          "Name": "label",
+          "Value": "CourseIcons/Back-end_telimi.svg"
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Back-end_telimi.svg",
+      "AssetFile": "CourseIcons/Back-end_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ="
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Front-end_telimi.3yvzw5oc6b.svg",
+      "AssetFile": "CourseIcons/Front-end_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2CpXKh3wUdDcTaac7PWljN55oqp+SPKoePw89Ls7Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3yvzw5oc6b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2CpXKh3wUdDcTaac7PWljN55oqp+SPKoePw89Ls7Cg="
+        },
+        {
+          "Name": "label",
+          "Value": "CourseIcons/Front-end_telimi.svg"
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Front-end_telimi.svg",
+      "AssetFile": "CourseIcons/Front-end_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2CpXKh3wUdDcTaac7PWljN55oqp+SPKoePw89Ls7Cg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2CpXKh3wUdDcTaac7PWljN55oqp+SPKoePw89Ls7Cg="
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/HR_telimi.29oa86vvw8.svg",
+      "AssetFile": "CourseIcons/HR_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utbOz/sPjSGBDg+h3ot/VHNFbgwmjONN/EWTAvSlBUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "29oa86vvw8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-utbOz/sPjSGBDg+h3ot/VHNFbgwmjONN/EWTAvSlBUE="
+        },
+        {
+          "Name": "label",
+          "Value": "CourseIcons/HR_telimi.svg"
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/HR_telimi.svg",
+      "AssetFile": "CourseIcons/HR_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"utbOz/sPjSGBDg+h3ot/VHNFbgwmjONN/EWTAvSlBUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-utbOz/sPjSGBDg+h3ot/VHNFbgwmjONN/EWTAvSlBUE="
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Satis_telimi.j1a5709nw6.svg",
+      "AssetFile": "CourseIcons/Satis_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1a5709nw6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY="
+        },
+        {
+          "Name": "label",
+          "Value": "CourseIcons/Satis_telimi.svg"
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Satis_telimi.svg",
+      "AssetFile": "CourseIcons/Satis_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY="
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Turizm_telimi.dy5aw0p4iw.svg",
+      "AssetFile": "CourseIcons/Turizm_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pezeHndG0QhVryVkg2jITLdg4RKbRScvbI+JfCixQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dy5aw0p4iw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pezeHndG0QhVryVkg2jITLdg4RKbRScvbI+JfCixQS0="
+        },
+        {
+          "Name": "label",
+          "Value": "CourseIcons/Turizm_telimi.svg"
+        }
+      ]
+    },
+    {
+      "Route": "CourseIcons/Turizm_telimi.svg",
+      "AssetFile": "CourseIcons/Turizm_telimi.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pezeHndG0QhVryVkg2jITLdg4RKbRScvbI+JfCixQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:29:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pezeHndG0QhVryVkg2jITLdg4RKbRScvbI+JfCixQS0="
+        }
+      ]
+    }
+  ]
+}

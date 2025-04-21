@@ -55,13 +55,48 @@ namespace MixedAPI.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("ContactForms", (string)null);
+                    b.ToTable("ContactForms");
+                });
+
+            modelBuilder.Entity("MixedAPI.Models.ContactFormForCompany", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("SendTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactFormForCompanies");
                 });
 
             modelBuilder.Entity("MixedAPI.Models.ContactFormForPanel", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("AssignedDepartment")
                         .HasColumnType("nvarchar(max)");
@@ -93,7 +128,7 @@ namespace MixedAPI.Migrations
                     b.HasIndex("ContactFormId")
                         .IsUnique();
 
-                    b.ToTable("ContactFormForPanels", (string)null);
+                    b.ToTable("ContactFormForPanels");
                 });
 
             modelBuilder.Entity("MixedAPI.Models.Course", b =>
@@ -149,7 +184,7 @@ namespace MixedAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("MixedAPI.Models.CourseDetail", b =>
@@ -226,7 +261,7 @@ namespace MixedAPI.Migrations
                         .IsUnique()
                         .HasFilter("[CourseId] IS NOT NULL");
 
-                    b.ToTable("CourseDetails", (string)null);
+                    b.ToTable("CourseDetails");
                 });
 
             modelBuilder.Entity("MixedAPI.Models.DocumentAttachment", b =>
@@ -254,28 +289,7 @@ namespace MixedAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DocumentAttachments", (string)null);
-                });
-
-            modelBuilder.Entity("MixedAPI.Models.Login", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Logins", (string)null);
+                    b.ToTable("DocumentAttachments");
                 });
 
             modelBuilder.Entity("MixedAPI.Models.ContactForm", b =>

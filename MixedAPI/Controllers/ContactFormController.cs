@@ -40,19 +40,39 @@ namespace MixedAPI.Controllers
                 var panelEntry = new ContactFormForPanel
                 {
                     Id = newPanelId,
-                    ContactFormId = createdForm.Id,  
-                    Status = ContactFormStatus.New, 
-                    Priority = PriorityLevel.Medium, 
-                    Notes = "", 
+                    ContactFormId = createdForm.Id,
+                    Status = ContactFormStatus.New,
+                    Priority = PriorityLevel.Medium,
+                    Notes = "",
                     ResponseTime = null,
                     AssignedDepartment = "Support",
                     ModeratorName = "Moderator"
                 };
 
                 await _context.ContactFormForPanels.AddAsync(panelEntry);
-                await _context.SaveChangesAsync(); 
+                await _context.SaveChangesAsync();
 
                 return Ok(new { message = "Success", contactFormId = createdForm.Id, panelId = panelEntry.Id });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Xəta baş verdi", error = ex.InnerException?.Message ?? ex.Message });
+            }
+        }
+
+        [HttpPost("submit-company")]
+        public async Task<IActionResult> SubmitForCompany([FromBody] ContactFormForCompanyDto form)
+        {
+            if (form == null)
+                return BadRequest("Form məlumatı boşdur!");
+            try
+            {
+                var createdForm = await _contactFormService.SubmitFormForCompanyAsync(form);
+
+                if (createdForm == null)
+                    return StatusCode(500, new { message = "ContactForm yaradıla bilmədi." });
+
+                return Ok(new { message = "Success" });
             }
             catch (Exception ex)
             {
@@ -205,7 +225,6 @@ namespace MixedAPI.Controllers
             await _context.SaveChangesAsync();
             return Ok(new { message = "Panel uğurla yeniləndi"});
         }
-
 
         [HttpDelete("{id}")]
         [Authorize]

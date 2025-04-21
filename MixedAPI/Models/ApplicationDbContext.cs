@@ -14,8 +14,7 @@ namespace MixedAPI.Models
         public DbSet<CourseDetail> CourseDetails { get; set; }
         public DbSet<DocumentAttachment> DocumentAttachments { get; set; }
         public DbSet<ContactFormForPanel> ContactFormForPanels { get; set; }
-        public DbSet<Login> Logins { get; set; }
-
+        public DbSet<ContactFormForCompany> ContactFormForCompanies { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ContactForm>()

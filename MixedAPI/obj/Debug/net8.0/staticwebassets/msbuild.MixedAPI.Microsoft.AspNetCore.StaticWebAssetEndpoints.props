@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Back-end_telimi.oon69vps9i.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Back-end_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oon69vps9i"},{"Name":"integrity","Value":"sha256-mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ="},{"Name":"label","Value":"_content/MixedAPI/CourseIcons/Back-end_telimi.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38637"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Back-end_telimi.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Back-end_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38637"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022mC1C8khmKGDdIPnI20gTwui5OZjkIPJc8b9y5cNqKjQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Front-end_telimi.3yvzw5oc6b.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Front-end_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3yvzw5oc6b"},{"Name":"integrity","Value":"sha256-e2CpXKh3wUdDcTaac7PWljN55oqp\u002BSPKoePw89Ls7Cg="},{"Name":"label","Value":"_content/MixedAPI/CourseIcons/Front-end_telimi.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"69894"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022e2CpXKh3wUdDcTaac7PWljN55oqp\u002BSPKoePw89Ls7Cg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Front-end_telimi.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Front-end_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e2CpXKh3wUdDcTaac7PWljN55oqp\u002BSPKoePw89Ls7Cg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"69894"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022e2CpXKh3wUdDcTaac7PWljN55oqp\u002BSPKoePw89Ls7Cg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/HR_telimi.29oa86vvw8.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\HR_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"29oa86vvw8"},{"Name":"integrity","Value":"sha256-utbOz/sPjSGBDg\u002Bh3ot/VHNFbgwmjONN/EWTAvSlBUE="},{"Name":"label","Value":"_content/MixedAPI/CourseIcons/HR_telimi.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34122"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022utbOz/sPjSGBDg\u002Bh3ot/VHNFbgwmjONN/EWTAvSlBUE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/HR_telimi.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\HR_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-utbOz/sPjSGBDg\u002Bh3ot/VHNFbgwmjONN/EWTAvSlBUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34122"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022utbOz/sPjSGBDg\u002Bh3ot/VHNFbgwmjONN/EWTAvSlBUE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Satis_telimi.j1a5709nw6.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Satis_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j1a5709nw6"},{"Name":"integrity","Value":"sha256-6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY="},{"Name":"label","Value":"_content/MixedAPI/CourseIcons/Satis_telimi.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"43416"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00226YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Satis_telimi.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Satis_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43416"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00226YaBjziGdMWab9evFI1itP3lckPKn1ff17F0F4baVoY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Turizm_telimi.dy5aw0p4iw.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Turizm_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dy5aw0p4iw"},{"Name":"integrity","Value":"sha256-pezeHndG0QhVryVkg2jITLdg4RKbRScvbI\u002BJfCixQS0="},{"Name":"label","Value":"_content/MixedAPI/CourseIcons/Turizm_telimi.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"64177"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022pezeHndG0QhVryVkg2jITLdg4RKbRScvbI\u002BJfCixQS0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MixedAPI/CourseIcons/Turizm_telimi.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CourseIcons\Turizm_telimi.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pezeHndG0QhVryVkg2jITLdg4RKbRScvbI\u002BJfCixQS0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"64177"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022pezeHndG0QhVryVkg2jITLdg4RKbRScvbI\u002BJfCixQS0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 07:29:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

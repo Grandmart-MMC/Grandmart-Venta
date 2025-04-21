@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
+      "PackagePath": "staticwebassets\\CourseIcons\\Back-end_telimi.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
+      "PackagePath": "staticwebassets\\CourseIcons\\Front-end_telimi.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
+      "PackagePath": "staticwebassets\\CourseIcons\\HR_telimi.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
+      "PackagePath": "staticwebassets\\CourseIcons\\Satis_telimi.svg"
+    },
+    {
+      "Id": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
+      "PackagePath": "staticwebassets\\CourseIcons\\Turizm_telimi.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MixedAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MixedAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MixedAPI.props",
+      "PackagePath": "build\\MixedAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MixedAPI.props",
+      "PackagePath": "buildMultiTargeting\\MixedAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MixedAPI.props",
+      "PackagePath": "buildTransitive\\MixedAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

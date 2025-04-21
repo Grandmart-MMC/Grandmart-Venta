@@ -19,6 +19,7 @@ System.Net.ServicePointManager.ServerCertificateValidationCallback =
 builder.Services.AddControllers()
                 .AddFluentValidation();
 builder.Services.AddScoped<IValidator<ContactFormDto>, ContactFormValidator>();
+builder.Services.AddScoped<IValidator<ContactFormForCompanyDto>, ContactFormForCompanyValidator>();
 builder.Services.AddScoped<IContactFormService, ContactFormService>();
 builder.Services.AddScoped<IVideoService, VideoService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
