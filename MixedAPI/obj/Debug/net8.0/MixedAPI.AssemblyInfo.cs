@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MixedAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a987c4cde3d228cd3c82deecdc243698f91f72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3a681b5d235109af94a36c04a5fda8e3c5b77e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MixedAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MixedAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
