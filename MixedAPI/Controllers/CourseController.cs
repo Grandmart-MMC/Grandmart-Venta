@@ -31,7 +31,7 @@ namespace MixedAPI.Controllers
 
                 ProgramDuration = GetProgramDurationByLang(course, lang),
 
-                IconUrl = $"{Request.Scheme}://{Request.Host}/CourseIcons/{course.Icon}",
+                IconUrl = $"{Request.Scheme}://{Request.Host}:6002/CourseIcons/{course.Icon}",
 
                 course.Participants,
 
@@ -53,7 +53,7 @@ namespace MixedAPI.Controllers
                 Title = GetTitleByLang(course, lang),
                 Description = GetDescriptionByLang(course, lang),
                 ProgramDuration = GetProgramDurationByLang(course, lang),
-                IconUrl = $"{Request.Scheme}://{Request.Host}/CourseIcons/{course.Icon}",
+                IconUrl = $"{Request.Scheme}://{Request.Host}:6002/CourseIcons/{course.Icon}",
                 course.Participants
             };
             return Ok(result);

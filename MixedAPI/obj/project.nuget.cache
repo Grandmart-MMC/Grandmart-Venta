@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5Tz1abGeOU=",
+  "dgSpecHash": "40qYJB1gS24=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
+  "projectFilePath": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rustam.Eyvazov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Rustam.Eyvazov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

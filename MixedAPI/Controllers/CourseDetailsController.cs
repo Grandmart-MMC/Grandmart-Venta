@@ -174,7 +174,7 @@ namespace MixedAPI.Controllers
                     "ru" => course.ProgramDurationRu,
                     _ => course.ProgramDurationAz
                 },
-                iconUrl = $"{Request.Scheme}://{Request.Host}/CourseIcons/{course.Icon}",
+                iconUrl = $"{Request.Scheme}://{Request.Host}:6002/CourseIcons/{course.Icon}",
                 participants = course.Participants,
 
                 detailTitle,
@@ -254,7 +254,7 @@ namespace MixedAPI.Controllers
                     "ru" => course.ProgramDurationRu,
                     _ => course.ProgramDurationAz
                 },
-                iconUrl = $"{Request.Scheme}://{Request.Host}/CourseIcons/{course.Icon}",
+                iconUrl = $"{Request.Scheme}://{Request.Host}:6002/CourseIcons/{course.Icon}",
                 participants = course.Participants,
 
                 detailTitle = course.CourseDetail == null ? null : (lang.ToLower() switch

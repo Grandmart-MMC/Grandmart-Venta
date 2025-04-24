@@ -84,13 +84,6 @@ builder.Services.Configure<FormOptions>(options =>
     options.MultipartBodyLengthLimit = 1024L * 1024 * 1024; // 1 GB
 });
 
-builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
-{
-    builder.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
-}));
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -108,7 +101,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 
 if (!app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage(); 
+    app.UseDeveloperExceptionPage();
 }
 
 app.Use(async (context, next) =>
@@ -118,7 +111,7 @@ app.Use(async (context, next) =>
 });
 
 app.UseRouting();
-app.UseCors("AllowConfiguredOrigins");
+app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();

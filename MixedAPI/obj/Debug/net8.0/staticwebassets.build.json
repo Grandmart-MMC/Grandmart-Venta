@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ihWLFt3Z/dn/GgHGaAxdAAqf4pU3ijH8P3saMunsOAI=",
+  "Hash": "hVtvD1oKYeTiDFv/8uGIC49AwyK6w7eFgsGmLzI9OFY=",
   "Source": "MixedAPI",
   "BasePath": "_content/MixedAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MixedAPI\\wwwroot",
       "Source": "MixedAPI",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
+      "Identity": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
       "SourceId": "MixedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "RelativePath": "CourseIcons/Back-end_telimi#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\CourseIcons\\Back-end_telimi.svg"
     },
     {
-      "Identity": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
+      "Identity": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
       "SourceId": "MixedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "RelativePath": "CourseIcons/Front-end_telimi#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\CourseIcons\\Front-end_telimi.svg"
     },
     {
-      "Identity": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
+      "Identity": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
       "SourceId": "MixedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "RelativePath": "CourseIcons/HR_telimi#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\CourseIcons\\HR_telimi.svg"
     },
     {
-      "Identity": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
+      "Identity": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
       "SourceId": "MixedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "RelativePath": "CourseIcons/Satis_telimi#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\CourseIcons\\Satis_telimi.svg"
     },
     {
-      "Identity": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
+      "Identity": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
       "SourceId": "MixedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\",
       "BasePath": "_content/MixedAPI",
       "RelativePath": "CourseIcons/Turizm_telimi#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -125,7 +125,7 @@
   "Endpoints": [
     {
       "Route": "CourseIcons/Back-end_telimi.oon69vps9i.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "Route": "CourseIcons/Back-end_telimi.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Back-end_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "Route": "CourseIcons/Front-end_telimi.3yvzw5oc6b.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -252,7 +252,7 @@
     },
     {
       "Route": "CourseIcons/Front-end_telimi.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Front-end_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "Route": "CourseIcons/HR_telimi.29oa86vvw8.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -334,7 +334,7 @@
     },
     {
       "Route": "CourseIcons/HR_telimi.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\HR_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,7 +371,7 @@
     },
     {
       "Route": "CourseIcons/Satis_telimi.j1a5709nw6.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -416,7 +416,7 @@
     },
     {
       "Route": "CourseIcons/Satis_telimi.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Satis_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -453,7 +453,7 @@
     },
     {
       "Route": "CourseIcons/Turizm_telimi.dy5aw0p4iw.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -498,7 +498,7 @@
     },
     {
       "Route": "CourseIcons/Turizm_telimi.svg",
-      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
+      "AssetFile": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\wwwroot\\CourseIcons\\Turizm_telimi.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
