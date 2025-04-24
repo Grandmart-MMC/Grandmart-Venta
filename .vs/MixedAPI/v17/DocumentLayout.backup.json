@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|c:\\users\\rustam.eyvazov\\source\\repos\\grandmart-venta\\mixedapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|solutionrelative:mixedapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|c:\\users\\rustam.eyvazov\\source\\repos\\grandmart-venta\\mixedapi\\controllers\\coursedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|solutionrelative:mixedapi\\controllers\\coursedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|c:\\users\\rustam.eyvazov\\source\\repos\\grandmart-venta\\mixedapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|solutionrelative:mixedapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68873303-E396-45E3-B50C-E2F536365AE6}|MixedAPI\\MixedAPI.csproj|c:\\users\\rustam.eyvazov\\source\\repos\\grandmart-venta\\mixedapi\\controllers\\courseanddetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,30 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 283,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CourseDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\Controllers\\CourseDetailsController.cs",
               "RelativeDocumentMoniker": "MixedAPI\\Controllers\\CourseDetailsController.cs",
               "ToolTip": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\Controllers\\CourseDetailsController.cs*",
               "RelativeToolTip": "MixedAPI\\Controllers\\CourseDetailsController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAUwAQBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:35:01.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "MixedAPI\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\Controllers\\CourseController.cs*",
               "RelativeToolTip": "MixedAPI\\Controllers\\CourseController.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwD0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:31:51.709Z",
               "EditorCaption": ""
@@ -74,7 +74,7 @@
               "RelativeDocumentMoniker": "MixedAPI\\Controllers\\CourseAndDetailsController.cs",
               "ToolTip": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\Controllers\\CourseAndDetailsController.cs",
               "RelativeToolTip": "MixedAPI\\Controllers\\CourseAndDetailsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwCgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:31:49.969Z",
               "EditorCaption": ""
@@ -89,8 +89,7 @@
               "RelativeToolTip": "MixedAPI\\Services\\VideoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:31:44.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:31:44.411Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "MixedAPI\\Services\\IVideoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:31:40.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:31:40.355Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "MixedAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:29:23.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:29:23.019Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "MixedAPI\\Services\\ContactFormService.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAgwHEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T08:37:18.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T08:37:18.688Z"
             }
           ]
         }

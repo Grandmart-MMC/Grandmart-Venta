@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj": {}
+    "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj": {
+    "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
         "projectName": "MixedAPI",
-        "projectPath": "C:\\Users\\Rustam.Eyvazov\\source\\repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
+        "projectPath": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\MixedAPI.csproj",
         "packagesPath": "C:\\Users\\Rustam.Eyvazov\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Rustam.Eyvazov\\Source\\Repos\\Grandmart-Venta\\MixedAPI\\obj\\",
         "projectStyle": "PackageReference",
